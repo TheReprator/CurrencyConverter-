@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="spinner_style">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:dropDownHeight">40dp</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:dropDownSelector">@android:color/white</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:background">@color/pink</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:background">@color/yellow</item>
+    </style>
+</resources>

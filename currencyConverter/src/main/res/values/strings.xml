@@ -1,0 +1,7 @@
+<resources>
+    <string name="home_saved_location">Saved Locations</string>
+    <string name="home_add_location">Add A Location</string>
+    <string name="hint_currency_value">Enter Value</string>
+    <string name="currency_btn_retry">Retry</string>
+    <string name="currency_error">An Internet error occurred</string>
+</resources>
