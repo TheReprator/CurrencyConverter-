@@ -43,7 +43,6 @@ class AppModule {
         )
     }
 
-    @Singleton
     @Provides
     fun provideConnectivityChecker(
         @ApplicationContext context: Context, lifecycle: Lifecycle
